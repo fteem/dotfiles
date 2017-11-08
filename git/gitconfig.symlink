@@ -8,6 +8,7 @@
         promote = !$ZSH/bin/git-promote
         count   = !git shortlog -sn
         ri      = rebase --interactive
+        fixup   = commit --fixup
 [color]
         diff = auto
         status = auto
