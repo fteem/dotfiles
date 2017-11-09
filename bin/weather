@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Quick curl to wttr.in to check for weather
+if [[ $1 ]]; then
+  curl wttr.in/$1
+else
+  curl wttr.in/Amsterdam
+fi
