@@ -62,5 +62,8 @@ if [ -f '/Users/ie/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/ie/goo
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/ie/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 
+# brew ruby-build OpenSSL
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
 # rbenv setup
 eval "$(rbenv init -)"
