@@ -2,3 +2,4 @@ zsh-users/zsh-syntax-highlighting
 ohmyzsh/ohmyzsh path:plugins/golang
 nviennot/zsh-vim-plugin
 laurenkt/zsh-vimto
+sinetoami/antibody-completion
