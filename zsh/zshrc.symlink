@@ -68,6 +68,7 @@ eval "$(rbenv init -)"
 
 # antibody
 source <(antibody init)
+antibody bundle < ~/.zsh_plugins
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
